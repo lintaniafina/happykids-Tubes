@@ -1,0 +1,38 @@
+{
+	"product":[
+		{
+			"no" : "1",
+			"nama" : "troller",
+			"kode" : "aaassc123",
+			"warna" : "yellow",
+			"ukuran" : "Large",
+			"qty" : "3",
+			"harga" : "Rp 140.000"
+		},
+		{
+			"no" : "2",
+			"nama" : "bouncer",
+			"kode" : "awessc123",
+			"warna" : "yellow",
+			"ukuran" : "Medium",
+			"qty" : "2",
+			"harga" : "Rp 140.000"
+		},
+		{
+			"no" : "3",
+			"nama" : "groller",
+			"kode" : "ewwssc123",
+			"warna" : "yellow",
+			"ukuran" : "Small",
+			"qty" : "1",
+			"harga" : "Rp 140.000"
+		}
+	],
+
+	"total" : [
+		{
+			"totalqty" : "6",
+			"total" : "Rp 940.000"
+		}
+	]
+}

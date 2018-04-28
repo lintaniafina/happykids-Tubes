@@ -1,0 +1,103 @@
+
+#produk-view{
+  margin-top:30px;
+}
+#produk-view .bottom{
+  display:block;
+  width:100%;
+  padding-top:20px;
+  clear:both;
+}
+#produk-view .product_images{
+  width:30%;
+  max-width:320px;
+  float:left;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#produk-view .produk-info{
+  width:66%;
+  float:left;
+  margin-left:4%;
+}
+
+#produk-view .produk-info h1{
+  font-size:30px;
+  line-height:.8;
+}
+#produk-view .produk-info .product_description{
+ font-size:21px;
+}
+#produk-view .produk-info .info-relasi{
+  color:#a6a6a6;
+}
+#produk-view .produk-info .info-relasi span{
+  margin-right:5%;
+}
+#produk-view .produk-info .options{
+  margin-top:30px;
+}
+#produk-view .produk-info .opsi-beli{
+  width:45%;
+  float:left;
+}
+#produk-view .produk-info .beli{
+  width:45%;
+  float:left;
+  margin-left:10%;
+}
+#produk-view .produk-info .opsi-beli .select{
+  width: 100%;
+  max-width:300px;
+  height: 40px;
+  overflow: hidden;
+  background: url('https://i.imgur.com/10e9Roz.png') no-repeat right #FFF;
+  border: 1px solid #ccc;
+  border-radius:3px;
+  margin-top:15px;  
+}
+#produk-view .produk-info .opsi-beli select{
+  background: transparent;
+  display:block;
+  width: 268px;
+  padding: 5px;
+  font-size: 20px;
+  line-height: 1;
+  border: 0;
+  border-radius:0;
+  height: 40px;
+  -webkit-appearance: none;
+}
+#produk-view .produk-info .beli .qty{
+  font-size:20px;
+  margin-top:15px;
+  width:100%;
+  display:block;
+}
+#produk-view .produk-info .beli .qty [type="text"]{
+  width:40px;
+  height:40px;
+  border:1px solid #ccc;
+  border-radius:3px;
+  padding:10px;
+  box-sizing:border-box;
+  font-size:1em;
+}
+#produk-view .produk-info .beli .cart{
+  margin-top:25px;
+  width:100%;
+  float:left;
+  margin-bottom:20px;
+}
+#produk-view .produk-info .beli .cart a.add{
+  font-size:20px;
+  color:#FFF;
+  background:#00a900;
+  text-decoration:none;
+  padding:10px 20px;
+  height:40px;
+  border-radius:3px;
+  margin-left:10px;
+}
+@media (max-width:500px){
+  #produk-view .product_images,#produk-view .produk-info,#produk-view .reviews,#produk-view .related,#produk-view .produk-info .beli,#produk-view .produk-info .opsi-beli, #produk-view .produk-info .social{width:100%; margin-left:0;margin-right:0} 
+}
